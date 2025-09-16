@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Startups To Join - Featured Content</title>
         <link>https://startupstojoin.com</link>
         <description>Discover world-class startups and featured roles from the Startups To Join platform. Get the latest spotlight companies and career opportunities delivered directly to your inbox.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 16 Sep 2025 22:13:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Sep 2025 22:19:50 GMT</lastBuildDate>
         <ttl>600</ttl>
         <atom:link href="https://startupstojoin.com/rss" rel="self" type="application/rss+xml" />
         <image>
@@ -16,147 +16,153 @@
         <item>
             <title>Spotlight Company: Hebbia</title>
             <link>https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5</link>
-            <description>
+            <description>Spotlight on Hebbia: Hebbia is an AI platform that helps companies transform heaps of information into insights. Headquarters: New York, New York, United States.</description>
+            <content:encoded>
                 <![CDATA[
                     <img src="https://img.logo.dev/hebbia.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" alt="Hebbia" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div>
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c;">Hebbia</h3>
-                        <p style="margin: 0 0 8px 0; color: #4a5568; line-height: 1.5;">Hebbia is an AI platform that helps companies transform heaps of information into insights.</p>
-                        <div style="font-size: 12px; color: #718096;">
+                    <div style="font-family: Arial, sans-serif;">
+                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Hebbia</h3>
+                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Hebbia is an AI platform that helps companies transform heaps of information into insights.</p>
+                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
                             <span style="margin-right: 12px;">📍 New York, New York, United States</span>
                             <span style="margin-right: 12px;">💰 Series B</span>
                             <span>👥 101-250 employees</span>
                         </div>
-                        <div style="margin-top: 12px;">
+                        <div>
                             <a href="https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More →</a>
                         </div>
                     </div>
                     <div style="clear: both;"></div>
                 ]]>
-            </description>
+            </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
             <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5</guid>
         </item>
         <item>
             <title>Spotlight Company: Aven</title>
             <link>https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78</link>
-            <description>
+            <description>Spotlight on Aven: Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital. Headquarters: San Francisco, California, United States.</description>
+            <content:encoded>
                 <![CDATA[
                     <img src="https://img.logo.dev/aven.com?token=pk_H6vCt1rjTHyKsKAq-ByGUg&retina=true" alt="Aven" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div>
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c;">Aven</h3>
-                        <p style="margin: 0 0 8px 0; color: #4a5568; line-height: 1.5;">Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.</p>
-                        <div style="font-size: 12px; color: #718096;">
+                    <div style="font-family: Arial, sans-serif;">
+                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Aven</h3>
+                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.</p>
+                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
                             <span style="margin-right: 12px;">📍 San Francisco, California, United States</span>
                             <span style="margin-right: 12px;">💰 Series E</span>
                             <span>👥 101-250 employees</span>
                         </div>
-                        <div style="margin-top: 12px;">
+                        <div>
                             <a href="https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More →</a>
                         </div>
                     </div>
                     <div style="clear: both;"></div>
                 ]]>
-            </description>
+            </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
             <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78</guid>
         </item>
         <item>
             <title>Spotlight Company: Decagon</title>
             <link>https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025</link>
-            <description>
+            <description>Spotlight on Decagon: Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels. Headquarters: San Francisco, California, United States.</description>
+            <content:encoded>
                 <![CDATA[
                     <img src="https://img.logo.dev/decagon.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" alt="Decagon" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div>
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c;">Decagon</h3>
-                        <p style="margin: 0 0 8px 0; color: #4a5568; line-height: 1.5;">Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.</p>
-                        <div style="font-size: 12px; color: #718096;">
+                    <div style="font-family: Arial, sans-serif;">
+                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Decagon</h3>
+                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.</p>
+                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
                             <span style="margin-right: 12px;">📍 San Francisco, California, United States</span>
                             <span style="margin-right: 12px;">💰 Series C</span>
                             <span>👥 101-250 employees</span>
                         </div>
-                        <div style="margin-top: 12px;">
+                        <div>
                             <a href="https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More →</a>
                         </div>
                     </div>
                     <div style="clear: both;"></div>
                 ]]>
-            </description>
+            </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:48 GMT</pubDate>
             <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025</guid>
         </item>
         <item>
             <title>Featured Role: Senior Frontend Engineer at Innovate Inc.</title>
             <link>https://startupstojoin.com/Jobs?jobId=68c395b44c48ba01de11b75c</link>
-            <description>
+            <description>Hiring for Senior Frontend Engineer at Innovate Inc.. Location: San Francisco, CA.</description>
+            <content:encoded>
                 <![CDATA[
                     <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68ba5accec4de4195d99f56c/1e2a1108c_startups-to-join-high-resolution-logo-transparent.png" alt="Innovate Inc." style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div>
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c;">Senior Frontend Engineer at Innovate Inc.</h3>
-                        <p style="margin: 0 0 8px 0; color: #4a5568; line-height: 1.5;">&lt;h1&gt;About the Role&lt;/h1&gt;&lt;p&gt;We are seeking a talented Senior Frontend Engineer to join our dynamic team. You will be responsible for building and maintaining our user-facing applications, working closel...</p>
-                        <div style="font-size: 12px; color: #718096;">
+                    <div style="font-family: Arial, sans-serif;">
+                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Senior Frontend Engineer at Innovate Inc.</h3>
+                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">&lt;h1&gt;About the Role&lt;/h1&gt;&lt;p&gt;We are seeking a talented Senior Frontend Engineer to join our dynamic team. You will be responsible for building and maintaining our user-facing applications, working closel...</p>
+                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
                             <span style="margin-right: 12px;">📍 San Francisco, CA</span>
                             <span style="margin-right: 12px;">🏢 Engineering</span>
                             <span style="margin-right: 12px;">💰 $150,000 - $180,000</span>
                             
                         </div>
-                        <div style="margin-top: 12px;">
-                            <a href="https://example.com/apply/1" target="_blank" style="background: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
+                        <div>
+                            <a href="https://example.com/apply/1" target="_blank" style="background-color: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
                         </div>
                     </div>
                     <div style="clear: both;"></div>
                 ]]>
-            </description>
+            </content:encoded>
             <pubDate>Sun, 15 Sep 2024 00:00:00 GMT</pubDate>
             <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c395b44c48ba01de11b75c</guid>
         </item>
         <item>
             <title>Featured Role: Product Manager at Notion</title>
             <link>https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5af</link>
-            <description>
+            <description>Hiring for Product Manager at Notion. Location: New York, NY.</description>
+            <content:encoded>
                 <![CDATA[
                     <img src="https://logo.clearbit.com/notion.so" alt="Notion" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div>
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c;">Product Manager at Notion</h3>
-                        <p style="margin: 0 0 8px 0; color: #4a5568; line-height: 1.5;">Define and execute the product roadmap for our core collaboration features. You will work closely with engineering, design, and marketing.</p>
-                        <div style="font-size: 12px; color: #718096;">
+                    <div style="font-family: Arial, sans-serif;">
+                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Product Manager at Notion</h3>
+                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Define and execute the product roadmap for our core collaboration features. You will work closely with engineering, design, and marketing.</p>
+                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
                             <span style="margin-right: 12px;">📍 New York, NY</span>
                             <span style="margin-right: 12px;">🏢 Product</span>
                             <span style="margin-right: 12px;">💰 $140,000 - $170,000</span>
                             
                         </div>
-                        <div style="margin-top: 12px;">
-                            <a href="https://example.com/apply" target="_blank" style="background: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
+                        <div>
+                            <a href="https://example.com/apply" target="_blank" style="background-color: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
                         </div>
                     </div>
                     <div style="clear: both;"></div>
                 ]]>
-            </description>
+            </content:encoded>
             <pubDate>Sun, 28 Jul 2024 10:00:00 GMT</pubDate>
             <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5af</guid>
         </item>
         <item>
             <title>Featured Role: UX/UI Designer at Figma</title>
             <link>https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5b0</link>
-            <description>
+            <description>Hiring for UX/UI Designer at Figma. Location: Remote.</description>
+            <content:encoded>
                 <![CDATA[
                     <img src="https://logo.clearbit.com/figma.com" alt="Figma" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div>
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c;">UX/UI Designer at Figma</h3>
-                        <p style="margin: 0 0 8px 0; color: #4a5568; line-height: 1.5;">Craft intuitive and beautiful user experiences for our design tools. You&apos;ll be responsible for the entire design process from research to high-fidelity mockups.</p>
-                        <div style="font-size: 12px; color: #718096;">
+                    <div style="font-family: Arial, sans-serif;">
+                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">UX/UI Designer at Figma</h3>
+                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Craft intuitive and beautiful user experiences for our design tools. You&apos;ll be responsible for the entire design process from research to high-fidelity mockups.</p>
+                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
                             <span style="margin-right: 12px;">📍 Remote</span>
                             <span style="margin-right: 12px;">🏢 Design</span>
                             
                             <span style="margin-right: 12px;">📈 Equity</span>
                         </div>
-                        <div style="margin-top: 12px;">
-                            <a href="https://example.com/apply" target="_blank" style="background: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
+                        <div>
+                            <a href="https://example.com/apply" target="_blank" style="background-color: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
                         </div>
                     </div>
                     <div style="clear: both;"></div>
                 ]]>
-            </description>
+            </content:encoded>
             <pubDate>Sat, 27 Jul 2024 10:00:00 GMT</pubDate>
             <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5b0</guid>
         </item>
