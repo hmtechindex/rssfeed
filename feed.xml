@@ -9,20 +9,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\
     <channel>\
         <title>Startups To Join - Featured Content</title>\
-        <link>https://rare-dog-27-ec5m9kv3p8h8.deno.dev</link>\
+        <link>https://startupstojoin.com</link>\
         <description>Discover world-class startups and featured roles from the Startups To Join platform. Get the latest spotlight companies and career opportunities delivered directly to your inbox.</description>\
         <language>en-us</language>\
-        <lastBuildDate>Tue, 16 Sep 2025 21:37:21 GMT</lastBuildDate>\
+        <lastBuildDate>Tue, 16 Sep 2025 22:01:25 GMT</lastBuildDate>\
         <ttl>600</ttl>\
-        <atom:link href="https://rare-dog-27-ec5m9kv3p8h8.deno.dev/rss" rel="self" type="application/rss+xml" />\
+        <atom:link href="https://startupstojoin.com/rss" rel="self" type="application/rss+xml" />\
         <image>\
-            <url>https://rare-dog-27-ec5m9kv3p8h8.deno.dev/logo.png</url>\
+            <url>https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68ba5accec4de4195d99f56c/1e2a1108c_startups-to-join-high-resolution-logo-transparent.png</url>\
             <title>Startups To Join</title>\
-            <link>https://rare-dog-27-ec5m9kv3p8h8.deno.dev</link>\
+            <link>https://startupstojoin.com</link>\
         </image>\
         <item>\
             <title>Spotlight Company: Hebbia</title>\
-            <link>https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ade01cc7cae216cfe5</link>\
+            <link>https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5</link>\
             <description>\
                 <![CDATA[\
                     <img src="https://img.logo.dev/hebbia.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" alt="Hebbia" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />\
@@ -35,18 +35,18 @@
                             <span>\uc0\u55357 \u56421  101-250 employees</span>\
                         </div>\
                         <div style="margin-top: 12px;">\
-                            <a href="https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ade01cc7cae216cfe5" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More \uc0\u8594 </a>\
+                            <a href="https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More \uc0\u8594 </a>\
                         </div>\
                     </div>\
                     <div style="clear: both;"></div>\
                 ]]>\
             </description>\
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>\
-            <guid isPermaLink="true">https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ade01cc7cae216cfe5</guid>\
+            <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5</guid>\
         </item>\
         <item>\
             <title>Spotlight Company: Aven</title>\
-            <link>https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ad31d89ad251d6db78</link>\
+            <link>https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78</link>\
             <description>\
                 <![CDATA[\
                     <img src="https://img.logo.dev/aven.com?token=pk_H6vCt1rjTHyKsKAq-ByGUg&retina=true" alt="Aven" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />\
@@ -59,18 +59,18 @@
                             <span>\uc0\u55357 \u56421  101-250 employees</span>\
                         </div>\
                         <div style="margin-top: 12px;">\
-                            <a href="https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ad31d89ad251d6db78" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More \uc0\u8594 </a>\
+                            <a href="https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More \uc0\u8594 </a>\
                         </div>\
                     </div>\
                     <div style="clear: both;"></div>\
                 ]]>\
             </description>\
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>\
-            <guid isPermaLink="true">https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ad31d89ad251d6db78</guid>\
+            <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78</guid>\
         </item>\
         <item>\
             <title>Spotlight Company: Decagon</title>\
-            <link>https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ac479d48b141513025</link>\
+            <link>https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025</link>\
             <description>\
                 <![CDATA[\
                     <img src="https://img.logo.dev/decagon.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" alt="Decagon" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />\
@@ -83,18 +83,18 @@
                             <span>\uc0\u55357 \u56421  101-250 employees</span>\
                         </div>\
                         <div style="margin-top: 12px;">\
-                            <a href="https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ac479d48b141513025" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More \uc0\u8594 </a>\
+                            <a href="https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More \uc0\u8594 </a>\
                         </div>\
                     </div>\
                     <div style="clear: both;"></div>\
                 ]]>\
             </description>\
             <pubDate>Fri, 12 Sep 2025 00:17:48 GMT</pubDate>\
-            <guid isPermaLink="true">https://rare-dog-27-ec5m9kv3p8h8.deno.dev/StartupDetail?id=68c366ac479d48b141513025</guid>\
+            <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025</guid>\
         </item>\
         <item>\
             <title>Featured Role: Senior Frontend Engineer at Innovate Inc.</title>\
-            <link>https://rare-dog-27-ec5m9kv3p8h8.deno.dev/Jobs?jobId=68c395b44c48ba01de11b75c</link>\
+            <link>https://startupstojoin.com/Jobs?jobId=68c395b44c48ba01de11b75c</link>\
             <description>\
                 <![CDATA[\
                     <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68ba5accec4de4195d99f56c/1e2a1108c_startups-to-join-high-resolution-logo-transparent.png" alt="Innovate Inc." style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />\
@@ -115,11 +115,11 @@
                 ]]>\
             </description>\
             <pubDate>Sun, 15 Sep 2024 00:00:00 GMT</pubDate>\
-            <guid isPermaLink="true">https://rare-dog-27-ec5m9kv3p8h8.deno.dev/Jobs?jobId=68c395b44c48ba01de11b75c</guid>\
+            <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c395b44c48ba01de11b75c</guid>\
         </item>\
         <item>\
             <title>Featured Role: Product Manager at Notion</title>\
-            <link>https://rare-dog-27-ec5m9kv3p8h8.deno.dev/Jobs?jobId=68c3c8c64f23ee33c7d1d5af</link>\
+            <link>https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5af</link>\
             <description>\
                 <![CDATA[\
                     <img src="https://logo.clearbit.com/notion.so" alt="Notion" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />\
@@ -140,11 +140,11 @@
                 ]]>\
             </description>\
             <pubDate>Sun, 28 Jul 2024 10:00:00 GMT</pubDate>\
-            <guid isPermaLink="true">https://rare-dog-27-ec5m9kv3p8h8.deno.dev/Jobs?jobId=68c3c8c64f23ee33c7d1d5af</guid>\
+            <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5af</guid>\
         </item>\
         <item>\
             <title>Featured Role: UX/UI Designer at Figma</title>\
-            <link>https://rare-dog-27-ec5m9kv3p8h8.deno.dev/Jobs?jobId=68c3c8c64f23ee33c7d1d5b0</link>\
+            <link>https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5b0</link>\
             <description>\
                 <![CDATA[\
                     <img src="https://logo.clearbit.com/figma.com" alt="Figma" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />\
@@ -165,7 +165,7 @@
                 ]]>\
             </description>\
             <pubDate>Sat, 27 Jul 2024 10:00:00 GMT</pubDate>\
-            <guid isPermaLink="true">https://rare-dog-27-ec5m9kv3p8h8.deno.dev/Jobs?jobId=68c3c8c64f23ee33c7d1d5b0</guid>\
+            <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5b0</guid>\
         </item>\
     </channel>\
 </rss>}
