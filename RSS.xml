@@ -5,7 +5,7 @@
         <link>https://startupstojoin.com</link>
         <description>Discover world-class startups and featured roles from the Startups To Join platform. Get the latest spotlight companies and career opportunities delivered directly to your inbox.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 16 Sep 2025 22:19:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Sep 2025 23:55:04 GMT</lastBuildDate>
         <ttl>600</ttl>
         <atom:link href="https://startupstojoin.com/rss" rel="self" type="application/rss+xml" />
         <image>
@@ -16,23 +16,42 @@
         <item>
             <title>Spotlight Company: Hebbia</title>
             <link>https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5</link>
-            <description>Spotlight on Hebbia: Hebbia is an AI platform that helps companies transform heaps of information into insights. Headquarters: New York, New York, United States.</description>
+            <description>Spotlight on Hebbia: Hebbia is an AI platform that helps companies transform heaps of information into insights.. Headquarters: New York, New York, United States.</description>
             <content:encoded>
                 <![CDATA[
-                    <img src="https://img.logo.dev/hebbia.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" alt="Hebbia" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div style="font-family: Arial, sans-serif;">
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Hebbia</h3>
-                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Hebbia is an AI platform that helps companies transform heaps of information into insights.</p>
-                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
-                            <span style="margin-right: 12px;">📍 New York, New York, United States</span>
-                            <span style="margin-right: 12px;">💰 Series B</span>
-                            <span>👥 101-250 employees</span>
-                        </div>
-                        <div>
-                            <a href="https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More →</a>
-                        </div>
-                    </div>
-                    <div style="clear: both;"></div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; font-family: Arial, sans-serif; margin-bottom: 24px;">
+                        <tr>
+                            <td style="padding: 24px;">
+                                <!-- Header -->
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 16px;">
+                                    <tr>
+                                        <td width="56" valign="top">
+                                            <img src="https://img.logo.dev/hebbia.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Hebbia" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0;" />
+                                        </td>
+                                        <td valign="top" style="padding-left: 12px;">
+                                            <div style="font-size: 18px; font-weight: bold; color: #1a202c; margin-bottom: 4px;">
+                                                Hebbia
+                                                <span style="display: inline-block; background-color: #1a202c; color: #ffffff; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; margin-left: 8px; vertical-align: middle;">⭐ Featured</span>
+                                            </div>
+                                            <div style="font-size: 14px; color: #4a5568;">Hebbia is an AI platform that helps companies transform heaps of information into insights.</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Tags -->
+                                <div style="margin-bottom: 16px;">
+                                    <span style="background-color: #dcfce7; color: #166534; border: 1px solid #86efac; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Business Intelligence</span>
+                                    <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series B</span>
+                                </div>
+                                <!-- Meta Info -->
+                                <div style="margin-bottom: 24px; font-size: 14px; color: #4a5568;">
+                                    <div style="margin-bottom: 8px;">📍 New York, New York, United States</div>
+                                    <div>👥 101-250</div>
+                                </div>
+                                <!-- Button -->
+                                <a href="https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
+                            </td>
+                        </tr>
+                    </table>
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
@@ -41,23 +60,42 @@
         <item>
             <title>Spotlight Company: Aven</title>
             <link>https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78</link>
-            <description>Spotlight on Aven: Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital. Headquarters: San Francisco, California, United States.</description>
+            <description>Spotlight on Aven: Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.. Headquarters: San Francisco, California, United States.</description>
             <content:encoded>
                 <![CDATA[
-                    <img src="https://img.logo.dev/aven.com?token=pk_H6vCt1rjTHyKsKAq-ByGUg&retina=true" alt="Aven" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div style="font-family: Arial, sans-serif;">
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Aven</h3>
-                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.</p>
-                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
-                            <span style="margin-right: 12px;">📍 San Francisco, California, United States</span>
-                            <span style="margin-right: 12px;">💰 Series E</span>
-                            <span>👥 101-250 employees</span>
-                        </div>
-                        <div>
-                            <a href="https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More →</a>
-                        </div>
-                    </div>
-                    <div style="clear: both;"></div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; font-family: Arial, sans-serif; margin-bottom: 24px;">
+                        <tr>
+                            <td style="padding: 24px;">
+                                <!-- Header -->
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 16px;">
+                                    <tr>
+                                        <td width="56" valign="top">
+                                            <img src="https://img.logo.dev/aven.com?token=pk_H6vCt1rjTHyKsKAq-ByGUg&retina=true" width="48" height="48" alt="Aven" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0;" />
+                                        </td>
+                                        <td valign="top" style="padding-left: 12px;">
+                                            <div style="font-size: 18px; font-weight: bold; color: #1a202c; margin-bottom: 4px;">
+                                                Aven
+                                                <span style="display: inline-block; background-color: #1a202c; color: #ffffff; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; margin-left: 8px; vertical-align: middle;">⭐ Featured</span>
+                                            </div>
+                                            <div style="font-size: 14px; color: #4a5568;">Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Tags -->
+                                <div style="margin-bottom: 16px;">
+                                    <span style="background-color: #dcfce7; color: #166534; border: 1px solid #86efac; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Apps</span>
+                                    <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series E</span>
+                                </div>
+                                <!-- Meta Info -->
+                                <div style="margin-bottom: 24px; font-size: 14px; color: #4a5568;">
+                                    <div style="margin-bottom: 8px;">📍 San Francisco, California, United States</div>
+                                    <div>👥 101-250</div>
+                                </div>
+                                <!-- Button -->
+                                <a href="https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
+                            </td>
+                        </tr>
+                    </table>
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
@@ -66,23 +104,42 @@
         <item>
             <title>Spotlight Company: Decagon</title>
             <link>https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025</link>
-            <description>Spotlight on Decagon: Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels. Headquarters: San Francisco, California, United States.</description>
+            <description>Spotlight on Decagon: Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.. Headquarters: San Francisco, California, United States.</description>
             <content:encoded>
                 <![CDATA[
-                    <img src="https://img.logo.dev/decagon.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" alt="Decagon" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div style="font-family: Arial, sans-serif;">
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Decagon</h3>
-                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.</p>
-                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
-                            <span style="margin-right: 12px;">📍 San Francisco, California, United States</span>
-                            <span style="margin-right: 12px;">💰 Series C</span>
-                            <span>👥 101-250 employees</span>
-                        </div>
-                        <div>
-                            <a href="https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025" style="color: #3182ce; text-decoration: none; font-weight: 500;">Learn More →</a>
-                        </div>
-                    </div>
-                    <div style="clear: both;"></div>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; font-family: Arial, sans-serif; margin-bottom: 24px;">
+                        <tr>
+                            <td style="padding: 24px;">
+                                <!-- Header -->
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 16px;">
+                                    <tr>
+                                        <td width="56" valign="top">
+                                            <img src="https://img.logo.dev/decagon.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Decagon" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0;" />
+                                        </td>
+                                        <td valign="top" style="padding-left: 12px;">
+                                            <div style="font-size: 18px; font-weight: bold; color: #1a202c; margin-bottom: 4px;">
+                                                Decagon
+                                                <span style="display: inline-block; background-color: #1a202c; color: #ffffff; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; margin-left: 8px; vertical-align: middle;">⭐ Featured</span>
+                                            </div>
+                                            <div style="font-size: 14px; color: #4a5568;">Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Tags -->
+                                <div style="margin-bottom: 16px;">
+                                    <span style="background-color: #dcfce7; color: #166534; border: 1px solid #86efac; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Generative AI</span>
+                                    <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series C</span>
+                                </div>
+                                <!-- Meta Info -->
+                                <div style="margin-bottom: 24px; font-size: 14px; color: #4a5568;">
+                                    <div style="margin-bottom: 8px;">📍 San Francisco, California, United States</div>
+                                    <div>👥 101-250</div>
+                                </div>
+                                <!-- Button -->
+                                <a href="https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
+                            </td>
+                        </tr>
+                    </table>
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:48 GMT</pubDate>
