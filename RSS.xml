@@ -5,7 +5,7 @@
         <link>https://startupstojoin.com</link>
         <description>Discover world-class startups and featured roles from the Startups To Join platform. Get the latest spotlight companies and career opportunities delivered directly to your inbox.</description>
         <language>en-us</language>
-        <lastBuildDate>Sun, 21 Sep 2025 02:15:39 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Sep 2025 18:24:06 GMT</lastBuildDate>
         <ttl>600</ttl>
         <atom:link href="https://startupstojoin.com/rss" rel="self" type="application/rss+xml" />
         <image>
@@ -19,39 +19,44 @@
             <description>Spotlight on Hebbia: Hebbia is an AI platform that helps companies transform heaps of information into insights.. Headquarters: New York, New York, United States.</description>
             <content:encoded>
                 <![CDATA[
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; font-family: Arial, sans-serif; margin-bottom: 24px;">
-                        <tr>
-                            <td style="padding: 24px;">
-                                <!-- Header -->
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 16px;">
-                                    <tr>
-                                        <td width="56" valign="top">
-                                            <img src="https://img.logo.dev/hebbia.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Hebbia" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0;" />
-                                        </td>
-                                        <td valign="top" style="padding-left: 12px;">
-                                            <div style="font-size: 18px; font-weight: bold; color: #1a202c; margin-bottom: 4px;">
-                                                Hebbia
-                                                <span style="display: inline-block; background-color: #1a202c; color: #ffffff; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; margin-left: 8px; vertical-align: middle;">⭐ Featured</span>
-                                            </div>
-                                            <div style="font-size: 14px; color: #4a5568;">Hebbia is an AI platform that helps companies transform heaps of information into insights.</div>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <!-- Tags -->
-                                <div style="margin-bottom: 16px;">
-                                    <span style="background-color: #dcfce7; color: #166534; border: 1px solid #86efac; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Business Intelligence</span>
-                                    <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series B</span>
+                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 500px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
+                        
+                        <!-- Header -->
+                        <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
+                            <img src="https://img.logo.dev/hebbia.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Hebbia" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
+                            <div style="flex-grow: 1;">
+                                <div style="display: flex; align-items: center; margin-bottom: 4px;">
+                                    <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Hebbia</h2>
+                                    <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
+                                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
+                                        Featured
+                                    </span>
                                 </div>
-                                <!-- Meta Info -->
-                                <div style="margin-bottom: 24px; font-size: 14px; color: #4a5568;">
-                                    <div style="margin-bottom: 8px;">📍 New York, New York, United States</div>
-                                    <div>👥 101-250</div>
-                                </div>
-                                <!-- Button -->
-                                <a href="https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
-                            </td>
-                        </tr>
-                    </table>
+                                <p style="font-size: 14px; color: #475569; margin: 0;">Hebbia is an AI platform that helps companies transform heaps of information into insights.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tags -->
+                        <div style="margin-bottom: 16px;">
+                            <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Business Intelligence</span>
+                            <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series B</span>
+                        </div>
+
+                        <!-- Meta Info -->
+                        <div style="margin-bottom: 24px; font-size: 14px; color: #475569; line-height: 1.8;">
+                            <div style="display:flex;align-items:center;">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Location" />
+                                New York, New York, United States
+                            </div>
+                            <div style="display:flex;align-items:center;">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgMjF2LTJhNCA0IDAgMCAwLTQtNEg1YTQgNCAwIDAgMC00IDR2MiIvPjxjaXJjbGUgY3g9IjgiIGN5PSI3IiByPSI0Ii8+PHBhdGggZD0iTTIzIDIxdi0yYTQgNCAwIDAgMC0zLTMuODciLz48cGF0aCBkPSJNMTYgMy4xM2E0IDQgMCAwIDEgMCA3Ljc1Ii8+PC9zdmc+" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Employees" />
+                                101-250 employees
+                            </div>
+                        </div>
+                        
+                        <!-- Button -->
+                        <a href="https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
+                    </div>
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
@@ -63,39 +68,44 @@
             <description>Spotlight on Aven: Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.. Headquarters: San Francisco, California, United States.</description>
             <content:encoded>
                 <![CDATA[
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; font-family: Arial, sans-serif; margin-bottom: 24px;">
-                        <tr>
-                            <td style="padding: 24px;">
-                                <!-- Header -->
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 16px;">
-                                    <tr>
-                                        <td width="56" valign="top">
-                                            <img src="https://img.logo.dev/aven.com?token=pk_H6vCt1rjTHyKsKAq-ByGUg&retina=true" width="48" height="48" alt="Aven" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0;" />
-                                        </td>
-                                        <td valign="top" style="padding-left: 12px;">
-                                            <div style="font-size: 18px; font-weight: bold; color: #1a202c; margin-bottom: 4px;">
-                                                Aven
-                                                <span style="display: inline-block; background-color: #1a202c; color: #ffffff; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; margin-left: 8px; vertical-align: middle;">⭐ Featured</span>
-                                            </div>
-                                            <div style="font-size: 14px; color: #4a5568;">Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.</div>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <!-- Tags -->
-                                <div style="margin-bottom: 16px;">
-                                    <span style="background-color: #dcfce7; color: #166534; border: 1px solid #86efac; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Apps</span>
-                                    <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series E</span>
+                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 500px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
+                        
+                        <!-- Header -->
+                        <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
+                            <img src="https://img.logo.dev/aven.com?token=pk_H6vCt1rjTHyKsKAq-ByGUg&retina=true" width="48" height="48" alt="Aven" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
+                            <div style="flex-grow: 1;">
+                                <div style="display: flex; align-items: center; margin-bottom: 4px;">
+                                    <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Aven</h2>
+                                    <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
+                                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
+                                        Featured
+                                    </span>
                                 </div>
-                                <!-- Meta Info -->
-                                <div style="margin-bottom: 24px; font-size: 14px; color: #4a5568;">
-                                    <div style="margin-bottom: 8px;">📍 San Francisco, California, United States</div>
-                                    <div>👥 101-250</div>
-                                </div>
-                                <!-- Button -->
-                                <a href="https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
-                            </td>
-                        </tr>
-                    </table>
+                                <p style="font-size: 14px; color: #475569; margin: 0;">Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tags -->
+                        <div style="margin-bottom: 16px;">
+                            <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Apps</span>
+                            <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series E</span>
+                        </div>
+
+                        <!-- Meta Info -->
+                        <div style="margin-bottom: 24px; font-size: 14px; color: #475569; line-height: 1.8;">
+                            <div style="display:flex;align-items:center;">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Location" />
+                                San Francisco, California, United States
+                            </div>
+                            <div style="display:flex;align-items:center;">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgMjF2LTJhNCA0IDAgMCAwLTQtNEg1YTQgNCAwIDAgMC00IDR2MiIvPjxjaXJjbGUgY3g9IjgiIGN5PSI3IiByPSI0Ii8+PHBhdGggZD0iTTIzIDIxdi0yYTQgNCAwIDAgMC0zLTMuODciLz48cGF0aCBkPSJNMTYgMy4xM2E0IDQgMCAwIDEgMCA3Ljc1Ii8+PC9zdmc+" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Employees" />
+                                101-250 employees
+                            </div>
+                        </div>
+                        
+                        <!-- Button -->
+                        <a href="https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
+                    </div>
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
@@ -107,69 +117,48 @@
             <description>Spotlight on Decagon: Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.. Headquarters: San Francisco, California, United States.</description>
             <content:encoded>
                 <![CDATA[
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; font-family: Arial, sans-serif; margin-bottom: 24px;">
-                        <tr>
-                            <td style="padding: 24px;">
-                                <!-- Header -->
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 16px;">
-                                    <tr>
-                                        <td width="56" valign="top">
-                                            <img src="https://img.logo.dev/decagon.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Decagon" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0;" />
-                                        </td>
-                                        <td valign="top" style="padding-left: 12px;">
-                                            <div style="font-size: 18px; font-weight: bold; color: #1a202c; margin-bottom: 4px;">
-                                                Decagon
-                                                <span style="display: inline-block; background-color: #1a202c; color: #ffffff; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 99px; margin-left: 8px; vertical-align: middle;">⭐ Featured</span>
-                                            </div>
-                                            <div style="font-size: 14px; color: #4a5568;">Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.</div>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <!-- Tags -->
-                                <div style="margin-bottom: 16px;">
-                                    <span style="background-color: #dcfce7; color: #166534; border: 1px solid #86efac; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Generative AI</span>
-                                    <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series C</span>
+                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 500px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
+                        
+                        <!-- Header -->
+                        <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
+                            <img src="https://img.logo.dev/decagon.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Decagon" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
+                            <div style="flex-grow: 1;">
+                                <div style="display: flex; align-items: center; margin-bottom: 4px;">
+                                    <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Decagon</h2>
+                                    <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
+                                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
+                                        Featured
+                                    </span>
                                 </div>
-                                <!-- Meta Info -->
-                                <div style="margin-bottom: 24px; font-size: 14px; color: #4a5568;">
-                                    <div style="margin-bottom: 8px;">📍 San Francisco, California, United States</div>
-                                    <div>👥 101-250</div>
-                                </div>
-                                <!-- Button -->
-                                <a href="https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
-                            </td>
-                        </tr>
-                    </table>
+                                <p style="font-size: 14px; color: #475569; margin: 0;">Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tags -->
+                        <div style="margin-bottom: 16px;">
+                            <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Generative AI</span>
+                            <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series C</span>
+                        </div>
+
+                        <!-- Meta Info -->
+                        <div style="margin-bottom: 24px; font-size: 14px; color: #475569; line-height: 1.8;">
+                            <div style="display:flex;align-items:center;">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Location" />
+                                San Francisco, California, United States
+                            </div>
+                            <div style="display:flex;align-items:center;">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgMjF2LTJhNCA0IDAgMCAwLTQtNEg1YTQgNCAwIDAgMC00IDR2MiIvPjxjaXJjbGUgY3g9IjgiIGN5PSI3IiByPSI0Ii8+PHBhdGggZD0iTTIzIDIxdi0yYTQgNCAwIDAgMC0zLTMuODciLz48cGF0aCBkPSJNMTYgMy4xM2E0IDQgMCAwIDEgMCA3Ljc1Ii8+PC9zdmc+" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Employees" />
+                                101-250 employees
+                            </div>
+                        </div>
+                        
+                        <!-- Button -->
+                        <a href="https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
+                    </div>
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:48 GMT</pubDate>
             <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025</guid>
-        </item>
-        <item>
-            <title>Featured Role: Senior Frontend Engineer at Innovate Inc.</title>
-            <link>https://startupstojoin.com/Jobs?jobId=68c395b44c48ba01de11b75c</link>
-            <description>Hiring for Senior Frontend Engineer at Innovate Inc.. Location: San Francisco, CA.</description>
-            <content:encoded>
-                <![CDATA[
-                    <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68ba5accec4de4195d99f56c/1e2a1108c_startups-to-join-high-resolution-logo-transparent.png" alt="Innovate Inc." style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div style="font-family: Arial, sans-serif;">
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Senior Frontend Engineer at Innovate Inc.</h3>
-                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">&lt;h1&gt;About the Role&lt;/h1&gt;&lt;p&gt;We are seeking a talented Senior Frontend Engineer to join our dynamic team. You will be responsible for building and maintaining our user-facing applications, working closel...</p>
-                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
-                            <span style="margin-right: 12px;">📍 San Francisco, CA</span>
-                            <span style="margin-right: 12px;">🏢 Engineering</span>
-                            <span style="margin-right: 12px;">💰 $150,000 - $180,000</span>
-                            
-                        </div>
-                        <div>
-                            <a href="https://example.com/apply/1" target="_blank" style="background-color: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
-                        </div>
-                    </div>
-                    <div style="clear: both;"></div>
-                ]]>
-            </content:encoded>
-            <pubDate>Sun, 15 Sep 2024 00:00:00 GMT</pubDate>
-            <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c395b44c48ba01de11b75c</guid>
         </item>
         <item>
             <title>Featured Role: Product Manager at Notion</title>
@@ -177,21 +166,52 @@
             <description>Hiring for Product Manager at Notion. Location: New York, NY.</description>
             <content:encoded>
                 <![CDATA[
-                    <img src="https://logo.clearbit.com/notion.so" alt="Notion" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div style="font-family: Arial, sans-serif;">
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">Product Manager at Notion</h3>
-                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Define and execute the product roadmap for our core collaboration features. You will work closely with engineering, design, and marketing.</p>
-                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
-                            <span style="margin-right: 12px;">📍 New York, NY</span>
-                            <span style="margin-right: 12px;">🏢 Product</span>
-                            <span style="margin-right: 12px;">💰 $140,000 - $170,000</span>
-                            
-                        </div>
-                        <div>
-                            <a href="https://example.com/apply" target="_blank" style="background-color: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
+                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 600px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
+                        <div style="display: flex; align-items: flex-start; justify-content: space-between;">
+                            <!-- Left side -->
+                            <div style="display: flex; align-items: flex-start; gap: 16px;">
+                                <img src="https://logo.clearbit.com/notion.so" alt="Notion" width="48" height="48" style="width:48px;height:48px;border-radius:8px;object-fit:contain;border:1px solid #e2e8f0;" />
+                                <div>
+                                    <!-- Title and badges -->
+                                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                                        <h3 style="font-size: 18px; font-weight: 700; color: #1e293b; margin: 0;">Product Manager</h3>
+                                        <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
+                                            Featured
+                                        </span>
+                                        <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Product</span>
+                                    </div>
+                                    <!-- Company name -->
+                                    <p style="font-size: 16px; color: #475569; font-weight: 500; margin: 0 0 12px 0;">Notion</p>
+                                    
+                                    <!-- Meta info -->
+                                    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 14px; color: #475569; margin-bottom: 12px;">
+                                        <div style="display:flex;align-items:center;gap:4px;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Location" />
+                                            New York, NY
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:4px;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwb2x5bGluZSBwb2ludHM9IjEyIDYgMTIgMTIgMTYgMTQiLz48L3N2Zz4=" width="14" height="14" style="width:14px;height:14px;" alt="Date" />
+                                            7/28/2024
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:4px;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Type" />
+                                            Full-time
+                                        </div>
+                                        <span>$140,000 - $170,000</span>
+                                    </div>
+                                    
+                                    <!-- Description -->
+                                    <p style="font-size: 14px; color: #475569; line-height: 1.6;">Define and execute the product roadmap for our core collaboration features. You will work closely with engineering, design, and marketing.</p>
+                                </div>
+                            </div>
+                            <!-- Right side (Buttons) -->
+                            <div style="display: flex; flex-direction: column; gap: 8px; min-width: 120px;">
+                                <a href="https://example.com/apply" target="_blank" style="display: block; text-align: center; background-color: #0f172a; color: #ffffff; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500;">Apply Now</a>
+                                <a href="https://www.notion.so" target="_blank" style="display: block; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500;">View Company</a>
+                            </div>
                         </div>
                     </div>
-                    <div style="clear: both;"></div>
                 ]]>
             </content:encoded>
             <pubDate>Sun, 28 Jul 2024 10:00:00 GMT</pubDate>
@@ -203,21 +223,52 @@
             <description>Hiring for UX/UI Designer at Figma. Location: Remote.</description>
             <content:encoded>
                 <![CDATA[
-                    <img src="https://logo.clearbit.com/figma.com" alt="Figma" style="width: 64px; height: 64px; border-radius: 8px; float: left; margin-right: 15px; object-fit: contain;" />
-                    <div style="font-family: Arial, sans-serif;">
-                        <h3 style="margin: 0 0 8px 0; color: #1a202c; font-size: 18px;">UX/UI Designer at Figma</h3>
-                        <p style="margin: 0 0 12px 0; color: #4a5568; line-height: 1.5;">Craft intuitive and beautiful user experiences for our design tools. You&apos;ll be responsible for the entire design process from research to high-fidelity mockups.</p>
-                        <div style="font-size: 13px; color: #718096; margin-bottom: 12px;">
-                            <span style="margin-right: 12px;">📍 Remote</span>
-                            <span style="margin-right: 12px;">🏢 Design</span>
-                            
-                            <span style="margin-right: 12px;">📈 Equity</span>
-                        </div>
-                        <div>
-                            <a href="https://example.com/apply" target="_blank" style="background-color: #3182ce; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 500;">Apply Now</a>
+                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 600px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
+                        <div style="display: flex; align-items: flex-start; justify-content: space-between;">
+                            <!-- Left side -->
+                            <div style="display: flex; align-items: flex-start; gap: 16px;">
+                                <img src="https://logo.clearbit.com/figma.com" alt="Figma" width="48" height="48" style="width:48px;height:48px;border-radius:8px;object-fit:contain;border:1px solid #e2e8f0;" />
+                                <div>
+                                    <!-- Title and badges -->
+                                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                                        <h3 style="font-size: 18px; font-weight: 700; color: #1e293b; margin: 0;">UX/UI Designer</h3>
+                                        <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
+                                            Featured
+                                        </span>
+                                        <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Design</span>
+                                    </div>
+                                    <!-- Company name -->
+                                    <p style="font-size: 16px; color: #475569; font-weight: 500; margin: 0 0 12px 0;">Figma</p>
+                                    
+                                    <!-- Meta info -->
+                                    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 14px; color: #475569; margin-bottom: 12px;">
+                                        <div style="display:flex;align-items:center;gap:4px;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Location" />
+                                            Remote
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:4px;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwb2x5bGluZSBwb2ludHM9IjEyIDYgMTIgMTIgMTYgMTQiLz48L3N2Zz4=" width="14" height="14" style="width:14px;height:14px;" alt="Date" />
+                                            7/27/2024
+                                        </div>
+                                        <div style="display:flex;align-items:center;gap:4px;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Type" />
+                                            Contract
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <!-- Description -->
+                                    <p style="font-size: 14px; color: #475569; line-height: 1.6;">Craft intuitive and beautiful user experiences for our design tools. You&apos;ll be responsible for the entire design process from research to high-fidelit...</p>
+                                </div>
+                            </div>
+                            <!-- Right side (Buttons) -->
+                            <div style="display: flex; flex-direction: column; gap: 8px; min-width: 120px;">
+                                <a href="https://example.com/apply" target="_blank" style="display: block; text-align: center; background-color: #0f172a; color: #ffffff; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500;">Apply Now</a>
+                                
+                            </div>
                         </div>
                     </div>
-                    <div style="clear: both;"></div>
                 ]]>
             </content:encoded>
             <pubDate>Sat, 27 Jul 2024 10:00:00 GMT</pubDate>
