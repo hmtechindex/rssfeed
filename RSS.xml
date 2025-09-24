@@ -5,7 +5,7 @@
         <link>https://startupstojoin.com</link>
         <description>Discover world-class startups and featured roles from the Startups To Join platform. Get the latest spotlight companies and career opportunities delivered directly to your inbox.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 23 Sep 2025 18:24:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2025 04:27:25 GMT</lastBuildDate>
         <ttl>600</ttl>
         <atom:link href="https://startupstojoin.com/rss" rel="self" type="application/rss+xml" />
         <image>
@@ -15,7 +15,7 @@
         </image>
         <item>
             <title>Spotlight Company: Hebbia</title>
-            <link>https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5</link>
+            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
             <description>Spotlight on Hebbia: Hebbia is an AI platform that helps companies transform heaps of information into insights.. Headquarters: New York, New York, United States.</description>
             <content:encoded>
                 <![CDATA[
@@ -25,6 +25,7 @@
                         <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
                             <img src="https://img.logo.dev/hebbia.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Hebbia" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
                             <div style="flex-grow: 1;">
+                                <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Spotlight Company</div>
                                 <div style="display: flex; align-items: center; margin-bottom: 4px;">
                                     <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Hebbia</h2>
                                     <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
@@ -60,11 +61,12 @@
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
-            <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5</guid>
+            <!-- Make GUID a plain string so clients don't treat it as a link -->
+            <guid isPermaLink="false">s2j-startup-68c366ade01cc7cae216cfe5</guid>
         </item>
         <item>
             <title>Spotlight Company: Aven</title>
-            <link>https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78</link>
+            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
             <description>Spotlight on Aven: Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.. Headquarters: San Francisco, California, United States.</description>
             <content:encoded>
                 <![CDATA[
@@ -74,6 +76,7 @@
                         <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
                             <img src="https://img.logo.dev/aven.com?token=pk_H6vCt1rjTHyKsKAq-ByGUg&retina=true" width="48" height="48" alt="Aven" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
                             <div style="flex-grow: 1;">
+                                <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Spotlight Company</div>
                                 <div style="display: flex; align-items: center; margin-bottom: 4px;">
                                     <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Aven</h2>
                                     <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
@@ -109,11 +112,12 @@
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
-            <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78</guid>
+            <!-- Make GUID a plain string so clients don't treat it as a link -->
+            <guid isPermaLink="false">s2j-startup-68c366ad31d89ad251d6db78</guid>
         </item>
         <item>
             <title>Spotlight Company: Decagon</title>
-            <link>https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025</link>
+            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
             <description>Spotlight on Decagon: Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.. Headquarters: San Francisco, California, United States.</description>
             <content:encoded>
                 <![CDATA[
@@ -123,6 +127,7 @@
                         <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
                             <img src="https://img.logo.dev/decagon.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Decagon" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
                             <div style="flex-grow: 1;">
+                                <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Spotlight Company</div>
                                 <div style="display: flex; align-items: center; margin-bottom: 4px;">
                                     <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Decagon</h2>
                                     <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
@@ -158,11 +163,12 @@
                 ]]>
             </content:encoded>
             <pubDate>Fri, 12 Sep 2025 00:17:48 GMT</pubDate>
-            <guid isPermaLink="true">https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025</guid>
+            <!-- Make GUID a plain string so clients don't treat it as a link -->
+            <guid isPermaLink="false">s2j-startup-68c366ac479d48b141513025</guid>
         </item>
         <item>
             <title>Featured Role: Product Manager at Notion</title>
-            <link>https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5af</link>
+            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
             <description>Hiring for Product Manager at Notion. Location: New York, NY.</description>
             <content:encoded>
                 <![CDATA[
@@ -173,6 +179,7 @@
                                 <img src="https://logo.clearbit.com/notion.so" alt="Notion" width="48" height="48" style="width:48px;height:48px;border-radius:8px;object-fit:contain;border:1px solid #e2e8f0;" />
                                 <div>
                                     <!-- Title and badges -->
+                                    <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Featured Role</div>
                                     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
                                         <h3 style="font-size: 18px; font-weight: 700; color: #1e293b; margin: 0;">Product Manager</h3>
                                         <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
@@ -195,7 +202,7 @@
                                             7/28/2024
                                         </div>
                                         <div style="display:flex;align-items:center;gap:4px;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Type" />
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC92YyIgd2lkdGgPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Type" />
                                             Full-time
                                         </div>
                                         <span>$140,000 - $170,000</span>
@@ -215,11 +222,12 @@
                 ]]>
             </content:encoded>
             <pubDate>Sun, 28 Jul 2024 10:00:00 GMT</pubDate>
-            <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5af</guid>
+            <!-- Make GUID a plain string so clients don't treat it as a link -->
+            <guid isPermaLink="false">s2j-job-68c3c8c64f23ee33c7d1d5af</guid>
         </item>
         <item>
             <title>Featured Role: UX/UI Designer at Figma</title>
-            <link>https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5b0</link>
+            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
             <description>Hiring for UX/UI Designer at Figma. Location: Remote.</description>
             <content:encoded>
                 <![CDATA[
@@ -230,6 +238,7 @@
                                 <img src="https://logo.clearbit.com/figma.com" alt="Figma" width="48" height="48" style="width:48px;height:48px;border-radius:8px;object-fit:contain;border:1px solid #e2e8f0;" />
                                 <div>
                                     <!-- Title and badges -->
+                                    <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Featured Role</div>
                                     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
                                         <h3 style="font-size: 18px; font-weight: 700; color: #1e293b; margin: 0;">UX/UI Designer</h3>
                                         <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
@@ -252,7 +261,7 @@
                                             7/27/2024
                                         </div>
                                         <div style="display:flex;align-items:center;gap:4px;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Type" />
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC92YyIgd2lkdGgPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Type" />
                                             Contract
                                         </div>
                                         
@@ -272,7 +281,8 @@
                 ]]>
             </content:encoded>
             <pubDate>Sat, 27 Jul 2024 10:00:00 GMT</pubDate>
-            <guid isPermaLink="true">https://startupstojoin.com/Jobs?jobId=68c3c8c64f23ee33c7d1d5b0</guid>
+            <!-- Make GUID a plain string so clients don't treat it as a link -->
+            <guid isPermaLink="false">s2j-job-68c3c8c64f23ee33c7d1d5b0</guid>
         </item>
     </channel>
 </rss>
