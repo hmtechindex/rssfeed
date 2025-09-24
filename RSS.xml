@@ -1,288 +1,246 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
+import { createClientFromRequest } from 'npm:@base44/sdk@0.7.0';
+
+function escapeXml(value) {
+    if (value === null || value === undefined) return '';
+    const unsafe = String(value); // coerce (numbers/booleans) to string
+    return unsafe.replace(/[<>&'"]/g, function (c) {
+        switch (c) {
+            case '<': return '&lt;';
+            case '>': return '&gt;';
+            case '&': return '&amp;';
+            case '\'': return '&apos;';
+            case '"': return '&quot;';
+        }
+    });
+}
+
+Deno.serve(async (req) => {
+    try {
+        const base44 = createClientFromRequest(req);
+        
+        // Use your actual app URL
+        const appBaseUrl = "https://startupstojoin.com";
+
+        // SVG Icons (Base64 encoded)
+        const starIcon = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=`;
+        const mapPinIcon = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==`;
+        const usersIcon = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgMjF2LTJhNCA0IDAgMCAwLTQtNEg1YTQgNCAwIDAgMC00IDR2MiIvPjxjaXJjbGUgY3g9IjgiIGN5PSI3IiByPSI0Ii8+PHBhdGggZD0iTTIzIDIxdi0yYTQgNCAwIDAgMC0zLTMuODciLz48cGF0aCBkPSJNMTYgMy4xM2E0IDQgMCAwIDEgMCA3Ljc1Ii8+PC9zdmc+`;
+        const clockIcon = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwb2x5bGluZSBwb2ludHM9IjEyIDYgMTIgMTIgMTYgMTQiLz48L3N2Zz4=`;
+        const briefcaseIcon = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC92YyIgd2lkdGgPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGheiWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==`;
+
+        // Fetch featured startups
+        const featuredStartups = await base44.asServiceRole.entities.Startup.filter({ is_featured: true });
+
+        // Fetch featured jobs
+        const featuredJobs = await base44.asServiceRole.entities.JobListing.filter({ 
+            is_featured: true, 
+            status: 'Published' 
+        });
+        
+        // Create startup RSS items using a table-based layout for email clients
+        const startupItems = featuredStartups.map(startup => {
+            const richContent = `
+                <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <tr>
+                        <td align="center" style="padding:16px 12px;">
+                            <table role="presentation" width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px;max-width:600px;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+                                <tr>
+                                    <td style="padding:24px;">
+                                        <!-- Header row -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:16px;">
+                                            <tr>
+                                                <td valign="top" style="padding-right:16px;">
+                                                    ${startup.logo_url ? `<img src="${startup.logo_url}" alt="${escapeXml(startup.organization_name ?? '')}" width="48" height="48" style="display:block;width:48px;height:48px;border-radius:8px;object-fit:contain;border:1px solid #e2e8f0;">` : ''}
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;line-height:1.2;">Spotlight Company</div>
+                                                    <!-- Title row with pill -->
+                                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td style="font-size:20px;font-weight:700;color:#1e293b;line-height:1.3;padding:0;margin:0;">${escapeXml(startup.organization_name ?? '')}</td>
+                                                            <td style="padding-left:8px;">
+                                                                <span style="display:inline-block;background-color:#0f172a;color:#ffffff;font-size:11px;font-weight:500;padding:4px 8px;border-radius:999px;line-height:1.2;">Featured</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <div style="font-size:14px;color:#475569;margin:4px 0 0 0;line-height:1.4;">${escapeXml(startup.description ?? '')}</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!-- Tags -->
+                                        <div style="margin-bottom: 16px;">
+                                            ${startup.primary_industry ? `<span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">${escapeXml(startup.primary_industry)}</span>` : ''}
+                                            ${startup.last_funding_type ? `<span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">${escapeXml(startup.last_funding_type)}</span>` : ''}
+                                        </div>
+                                        <!-- Meta Info -->
+                                        <div style="margin-bottom: 24px; font-size: 14px; color: #475569; line-height: 1.8;">
+                                            <div style="display:flex;align-items:center;margin-bottom:4px;">
+                                                <img src="${mapPinIcon}" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Location" />
+                                                <span>${escapeXml(startup.headquarters_location ?? 'N/A')}</span>
+                                            </div>
+                                            <div style="display:flex;align-items:center;">
+                                                <img src="${usersIcon}" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Employees" />
+                                                <span>${escapeXml(startup.number_of_employees ?? 'N/A')} employees</span>
+                                            </div>
+                                        </div>
+                                        <!-- Button -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="center" style="background-color:#ffffff;color:#334155;border:1px solid #cbd5e1;border-radius:8px;">
+                                                    <a href="${appBaseUrl}/StartupDetail?id=${startup.id}" style="display:block;width:100%;text-decoration:none;color:#334155;font-size:14px;font-weight:500;padding:12px 0;line-height:1.2;">Learn More</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            `;
+            const plainDescription = `Spotlight on ${startup.organization_name ?? ''}: ${startup.description ?? ''}. HQ: ${startup.headquarters_location ?? ''}.`;
+
+            return {
+                title: `Spotlight Company: ${escapeXml(startup.organization_name ?? '')}`,
+                description: plainDescription,
+                richContent: richContent,
+                pubDate: new Date(startup.created_date).toUTCString(),
+                guid: `s2j-startup-${startup.id}`,
+                date: new Date(startup.created_date)
+            };
+        });
+
+        // Create job RSS items using a table-based layout for email clients
+        const jobItems = featuredJobs.map(job => {
+            const richContent = `
+                 <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <tr>
+                        <td align="center" style="padding:16px 12px;">
+                        <table role="presentation" width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px;max-width:600px;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+                            <tr>
+                            <td style="padding:24px;">
+                                <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <!-- LEFT -->
+                                    <td valign="top" style="padding-right:16px;">
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                        <td valign="top" style="padding-right:16px;">
+                                            ${job.company_logo_url ? `<img src="${job.company_logo_url}" alt="${escapeXml(job.company_name ?? '')}" width="48" height="48" style="display:block;width:48px;height:48px;border-radius:8px;object-fit:contain;border:1px solid #e2e8f0;">` : ''}
+                                        </td>
+                                        <td valign="top">
+                                            <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;line-height:1.2;">Featured Role</div>
+                                            <!-- Title row with pills -->
+                                            <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td style="font-size:18px;font-weight:700;color:#1e293b;line-height:1.3;padding:0;margin:0;">${escapeXml(job.title ?? '')}</td>
+                                                <td style="padding-left:8px;">
+                                                    <span style="display:inline-block;background-color:#0f172a;color:#ffffff;font-size:11px;font-weight:500;padding:4px 8px;border-radius:999px;line-height:1.2;">Featured</span>
+                                                </td>
+                                                ${job.department ? `<td style="padding-left:8px;"><span style="display:inline-block;background-color:#f0fdf4;color:#166534;border:1px solid #bbf7d0;font-size:12px;padding:4px 10px;border-radius:999px;line-height:1.2;">${escapeXml(job.department)}</span></td>` : ''}
+                                            </tr>
+                                            </table>
+                                            <!-- Company -->
+                                            <div style="font-size:16px;color:#475569;font-weight:500;margin:8px 0 12px 0;line-height:1.3;">${escapeXml(job.company_name ?? '')}</div>
+                                            <!-- Meta row (no icons) -->
+                                            <div style="font-size:14px;color:#475569;margin:0 0 8px 0;line-height:1.4;">
+                                                ${escapeXml(job.location ?? '')}&nbsp;&nbsp;&nbsp; ${new Date(job.published_date ?? Date.now()).toLocaleDateString()}&nbsp;&nbsp;&nbsp; ${escapeXml(job.employment_type ?? '')}
+                                            </div>
+                                            <!-- Salary -->
+                                            ${job.salary_range ? `<div style="font-size:14px;color:#1f2937;margin:0 0 12px 0;line-height:1.4;">${escapeXml(job.salary_range)}</div>` : ''}
+                                            <!-- Description -->
+                                            <div style="font-size:14px;color:#475569;margin:0;line-height:1.6;">
+                                                ${escapeXml((job.description ?? '').replace(/<[^>]*>/g, '').substring(0, 150))}${job.description && job.description.length > 150 ? '...' : ''}
+                                            </div>
+                                        </td>
+                                        </tr>
+                                    </table>
+                                    </td>
+                                    <!-- RIGHT: stacked buttons -->
+                                    <td valign="top" align="right" width="140" style="width:140px;">
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="right" style="width:140px;">
+                                        <tr>
+                                        <td align="center" style="background-color:#0f172a;color:#ffffff;border-radius:6px;">
+                                            <a href="${job.application_url ?? '#'}" style="display:block;text-decoration:none;color:#ffffff;font-size:14px;font-weight:500;padding:10px 12px;line-height:1.2;">Apply Now</a>
+                                        </td>
+                                        </tr>
+                                        ${job.company_website_url ? `<tr><td height="8" style="line-height:8px;font-size:0;">&nbsp;</td></tr><tr><td align="center" style="background-color:#ffffff;color:#334155;border:1px solid #cbd5e1;border-radius:6px;"><a href="${job.company_website_url}" style="display:block;text-decoration:none;color:#334155;font-size:14px;font-weight:500;padding:10px 12px;line-height:1.2;">View Company</a></td></tr>` : ''}
+                                    </table>
+                                    </td>
+                                </tr>
+                                </table>
+                            </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                </table>
+            `;
+            const plainDescription = `Hiring for ${job.title ?? 'a new role'} at ${job.company_name ?? 'an exciting company'}. Location: ${job.location ?? 'N/A'}.`;
+
+            return {
+                title: `Featured Role: ${escapeXml(job.title ?? '')} at ${escapeXml(job.company_name ?? '')}`,
+                description: plainDescription,
+                richContent: richContent,
+                pubDate: new Date(job.published_date ?? job.created_date).toUTCString(),
+                guid: `s2j-job-${job.id}`,
+                date: new Date(job.published_date ?? job.created_date)
+            };
+        });
+
+        // Combine and sort by date (most recent first)
+        const combinedItems = [...startupItems, ...jobItems].sort((a, b) => b.date.getTime() - a.date.getTime());
+
+        // Generate RSS items XML, placing the rich content in both description and content:encoded
+        const rssItemsXml = combinedItems.map(item => `
+        <item>
+            <title>${item.title}</title>
+            <pubDate>${item.pubDate}</pubDate>
+            <guid isPermaLink="false">${escapeXml(item.guid)}</guid>
+            <description>${escapeXml(item.richContent)}</description>
+            <content:encoded><![CDATA[${item.richContent}]]></content:encoded>
+        </item>`).join('');
+
+        // Generate complete RSS feed with content namespace
+        const rssFeed = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Startups To Join - Featured Content</title>
-        <link>https://startupstojoin.com</link>
+        <link>${appBaseUrl}</link>
         <description>Discover world-class startups and featured roles from the Startups To Join platform. Get the latest spotlight companies and career opportunities delivered directly to your inbox.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 24 Sep 2025 04:27:25 GMT</lastBuildDate>
+        <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
         <ttl>600</ttl>
-        <atom:link href="https://startupstojoin.com/rss" rel="self" type="application/rss+xml" />
+        <atom:link href="${appBaseUrl}/rss" rel="self" type="application/rss+xml" />
         <image>
             <url>https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68ba5accec4de4195d99f56c/1e2a1108c_startups-to-join-high-resolution-logo-transparent.png</url>
             <title>Startups To Join</title>
-            <link>https://startupstojoin.com</link>
-        </image>
-        <item>
-            <title>Spotlight Company: Hebbia</title>
-            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
-            <description>Spotlight on Hebbia: Hebbia is an AI platform that helps companies transform heaps of information into insights.. Headquarters: New York, New York, United States.</description>
-            <content:encoded>
-                <![CDATA[
-                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 500px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
-                        
-                        <!-- Header -->
-                        <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
-                            <img src="https://img.logo.dev/hebbia.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Hebbia" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
-                            <div style="flex-grow: 1;">
-                                <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Spotlight Company</div>
-                                <div style="display: flex; align-items: center; margin-bottom: 4px;">
-                                    <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Hebbia</h2>
-                                    <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
-                                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
-                                        Featured
-                                    </span>
-                                </div>
-                                <p style="font-size: 14px; color: #475569; margin: 0;">Hebbia is an AI platform that helps companies transform heaps of information into insights.</p>
-                            </div>
-                        </div>
-
-                        <!-- Tags -->
-                        <div style="margin-bottom: 16px;">
-                            <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Business Intelligence</span>
-                            <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series B</span>
-                        </div>
-
-                        <!-- Meta Info -->
-                        <div style="margin-bottom: 24px; font-size: 14px; color: #475569; line-height: 1.8;">
-                            <div style="display:flex;align-items:center;">
-                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Location" />
-                                New York, New York, United States
-                            </div>
-                            <div style="display:flex;align-items:center;">
-                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgMjF2LTJhNCA0IDAgMCAwLTQtNEg1YTQgNCAwIDAgMC00IDR2MiIvPjxjaXJjbGUgY3g9IjgiIGN5PSI3IiByPSI0Ii8+PHBhdGggZD0iTTIzIDIxdi0yYTQgNCAwIDAgMC0zLTMuODciLz48cGF0aCBkPSJNMTYgMy4xM2E0IDQgMCAwIDEgMCA3Ljc1Ii8+PC9zdmc+" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Employees" />
-                                101-250 employees
-                            </div>
-                        </div>
-                        
-                        <!-- Button -->
-                        <a href="https://startupstojoin.com/StartupDetail?id=68c366ade01cc7cae216cfe5" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
-                    </div>
-                ]]>
-            </content:encoded>
-            <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
-            <!-- Make GUID a plain string so clients don't treat it as a link -->
-            <guid isPermaLink="false">s2j-startup-68c366ade01cc7cae216cfe5</guid>
-        </item>
-        <item>
-            <title>Spotlight Company: Aven</title>
-            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
-            <description>Spotlight on Aven: Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.. Headquarters: San Francisco, California, United States.</description>
-            <content:encoded>
-                <![CDATA[
-                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 500px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
-                        
-                        <!-- Header -->
-                        <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
-                            <img src="https://img.logo.dev/aven.com?token=pk_H6vCt1rjTHyKsKAq-ByGUg&retina=true" width="48" height="48" alt="Aven" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
-                            <div style="flex-grow: 1;">
-                                <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Spotlight Company</div>
-                                <div style="display: flex; align-items: center; margin-bottom: 4px;">
-                                    <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Aven</h2>
-                                    <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
-                                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
-                                        Featured
-                                    </span>
-                                </div>
-                                <p style="font-size: 14px; color: #475569; margin: 0;">Aven&apos;s mission is to provide the lowest cost, most convenient, and most transparent access to capital.</p>
-                            </div>
-                        </div>
-
-                        <!-- Tags -->
-                        <div style="margin-bottom: 16px;">
-                            <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Apps</span>
-                            <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series E</span>
-                        </div>
-
-                        <!-- Meta Info -->
-                        <div style="margin-bottom: 24px; font-size: 14px; color: #475569; line-height: 1.8;">
-                            <div style="display:flex;align-items:center;">
-                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Location" />
-                                San Francisco, California, United States
-                            </div>
-                            <div style="display:flex;align-items:center;">
-                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgMjF2LTJhNCA0IDAgMCAwLTQtNEg1YTQgNCAwIDAgMC00IDR2MiIvPjxjaXJjbGUgY3g9IjgiIGN5PSI3IiByPSI0Ii8+PHBhdGggZD0iTTIzIDIxdi0yYTQgNCAwIDAgMC0zLTMuODciLz48cGF0aCBkPSJNMTYgMy4xM2E0IDQgMCAwIDEgMCA3Ljc1Ii8+PC9zdmc+" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Employees" />
-                                101-250 employees
-                            </div>
-                        </div>
-                        
-                        <!-- Button -->
-                        <a href="https://startupstojoin.com/StartupDetail?id=68c366ad31d89ad251d6db78" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
-                    </div>
-                ]]>
-            </content:encoded>
-            <pubDate>Fri, 12 Sep 2025 00:17:49 GMT</pubDate>
-            <!-- Make GUID a plain string so clients don't treat it as a link -->
-            <guid isPermaLink="false">s2j-startup-68c366ad31d89ad251d6db78</guid>
-        </item>
-        <item>
-            <title>Spotlight Company: Decagon</title>
-            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
-            <description>Spotlight on Decagon: Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.. Headquarters: San Francisco, California, United States.</description>
-            <content:encoded>
-                <![CDATA[
-                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 500px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
-                        
-                        <!-- Header -->
-                        <div style="display: flex; align-items: flex-start; margin-bottom: 16px;">
-                            <img src="https://img.logo.dev/decagon.ai?token=pk_H6vCt1rjTHyKsKAq-ByGUg" width="48" height="48" alt="Decagon" style="border-radius: 8px; object-fit: contain; border: 1px solid #e2e8f0; margin-right: 12px;" />
-                            <div style="flex-grow: 1;">
-                                <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Spotlight Company</div>
-                                <div style="display: flex; align-items: center; margin-bottom: 4px;">
-                                    <h2 style="font-size: 20px; font-weight: 700; color: #1e293b; margin: 0; margin-right: 8px;">Decagon</h2>
-                                    <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
-                                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
-                                        Featured
-                                    </span>
-                                </div>
-                                <p style="font-size: 14px; color: #475569; margin: 0;">Decagon is a conversational AI platform that provides a centralized AI engine to resolve issues in any language and across all channels.</p>
-                            </div>
-                        </div>
-
-                        <!-- Tags -->
-                        <div style="margin-bottom: 16px;">
-                            <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px; margin-right: 8px;">Generative AI</span>
-                            <span style="background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Series C</span>
-                        </div>
-
-                        <!-- Meta Info -->
-                        <div style="margin-bottom: 24px; font-size: 14px; color: #475569; line-height: 1.8;">
-                            <div style="display:flex;align-items:center;">
-                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Location" />
-                                San Francisco, California, United States
-                            </div>
-                            <div style="display:flex;align-items:center;">
-                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgMjF2LTJhNCA0IDAgMCAwLTQtNEg1YTQgNCAwIDAgMC00IDR2MiIvPjxjaXJjbGUgY3g9IjgiIGN5PSI3IiByPSI0Ii8+PHBhdGggZD0iTTIzIDIxdi0yYTQgNCAwIDAgMC0zLTMuODciLz48cGF0aCBkPSJNMTYgMy4xM2E0IDQgMCAwIDEgMCA3Ljc1Ii8+PC9zdmc+" width="14" height="14" style="width:14px;height:14px;margin-right:8px;" alt="Employees" />
-                                101-250 employees
-                            </div>
-                        </div>
-                        
-                        <!-- Button -->
-                        <a href="https://startupstojoin.com/StartupDetail?id=68c366ac479d48b141513025" style="display: block; width: 100%; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 12px 0; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500;">Learn More</a>
-                    </div>
-                ]]>
-            </content:encoded>
-            <pubDate>Fri, 12 Sep 2025 00:17:48 GMT</pubDate>
-            <!-- Make GUID a plain string so clients don't treat it as a link -->
-            <guid isPermaLink="false">s2j-startup-68c366ac479d48b141513025</guid>
-        </item>
-        <item>
-            <title>Featured Role: Product Manager at Notion</title>
-            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
-            <description>Hiring for Product Manager at Notion. Location: New York, NY.</description>
-            <content:encoded>
-                <![CDATA[
-                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 600px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
-                        <div style="display: flex; align-items: flex-start; justify-content: space-between;">
-                            <!-- Left side -->
-                            <div style="display: flex; align-items: flex-start; gap: 16px;">
-                                <img src="https://logo.clearbit.com/notion.so" alt="Notion" width="48" height="48" style="width:48px;height:48px;border-radius:8px;object-fit:contain;border:1px solid #e2e8f0;" />
-                                <div>
-                                    <!-- Title and badges -->
-                                    <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Featured Role</div>
-                                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
-                                        <h3 style="font-size: 18px; font-weight: 700; color: #1e293b; margin: 0;">Product Manager</h3>
-                                        <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
-                                            Featured
-                                        </span>
-                                        <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Product</span>
-                                    </div>
-                                    <!-- Company name -->
-                                    <p style="font-size: 16px; color: #475569; font-weight: 500; margin: 0 0 12px 0;">Notion</p>
-                                    
-                                    <!-- Meta info -->
-                                    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 14px; color: #475569; margin-bottom: 12px;">
-                                        <div style="display:flex;align-items:center;gap:4px;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Location" />
-                                            New York, NY
-                                        </div>
-                                        <div style="display:flex;align-items:center;gap:4px;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwb2x5bGluZSBwb2ludHM9IjEyIDYgMTIgMTIgMTYgMTQiLz48L3N2Zz4=" width="14" height="14" style="width:14px;height:14px;" alt="Date" />
-                                            7/28/2024
-                                        </div>
-                                        <div style="display:flex;align-items:center;gap:4px;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC92YyIgd2lkdGgPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Type" />
-                                            Full-time
-                                        </div>
-                                        <span>$140,000 - $170,000</span>
-                                    </div>
-                                    
-                                    <!-- Description -->
-                                    <p style="font-size: 14px; color: #475569; line-height: 1.6;">Define and execute the product roadmap for our core collaboration features. You will work closely with engineering, design, and marketing.</p>
-                                </div>
-                            </div>
-                            <!-- Right side (Buttons) -->
-                            <div style="display: flex; flex-direction: column; gap: 8px; min-width: 120px;">
-                                <a href="https://example.com/apply" target="_blank" style="display: block; text-align: center; background-color: #0f172a; color: #ffffff; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500;">Apply Now</a>
-                                <a href="https://www.notion.so" target="_blank" style="display: block; text-align: center; background-color: #ffffff; color: #334155; border: 1px solid #cbd5e1; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500;">View Company</a>
-                            </div>
-                        </div>
-                    </div>
-                ]]>
-            </content:encoded>
-            <pubDate>Sun, 28 Jul 2024 10:00:00 GMT</pubDate>
-            <!-- Make GUID a plain string so clients don't treat it as a link -->
-            <guid isPermaLink="false">s2j-job-68c3c8c64f23ee33c7d1d5af</guid>
-        </item>
-        <item>
-            <title>Featured Role: UX/UI Designer at Figma</title>
-            <!-- Intentionally omit <link> to discourage auto “View article” CTAs -->
-            <description>Hiring for UX/UI Designer at Figma. Location: Remote.</description>
-            <content:encoded>
-                <![CDATA[
-                    <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 600px; margin: auto; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);">
-                        <div style="display: flex; align-items: flex-start; justify-content: space-between;">
-                            <!-- Left side -->
-                            <div style="display: flex; align-items: flex-start; gap: 16px;">
-                                <img src="https://logo.clearbit.com/figma.com" alt="Figma" width="48" height="48" style="width:48px;height:48px;border-radius:8px;object-fit:contain;border:1px solid #e2e8f0;" />
-                                <div>
-                                    <!-- Title and badges -->
-                                    <div style="font-size:12px;font-weight:600;color:#0f172a;letter-spacing:.02em;margin:0 0 6px 0;">Featured Role</div>
-                                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
-                                        <h3 style="font-size: 18px; font-weight: 700; color: #1e293b; margin: 0;">UX/UI Designer</h3>
-                                        <span style="background-color: #0f172a; color: #ffffff; font-size: 11px; font-weight: 500; padding: 4px 8px; border-radius: 99px; display: inline-flex; align-items: center;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiPjwvcG9seWdvbj48L3N2Zz4=" width="12" height="12" alt="star" style="width:12px;height:12px;margin-right:4px;" />
-                                            Featured
-                                        </span>
-                                        <span style="background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; font-size: 12px; padding: 4px 10px; border-radius: 99px;">Design</span>
-                                    </div>
-                                    <!-- Company name -->
-                                    <p style="font-size: 16px; color: #475569; font-weight: 500; margin: 0 0 12px 0;">Figma</p>
-                                    
-                                    <!-- Meta info -->
-                                    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 14px; color: #475569; margin-bottom: 12px;">
-                                        <div style="display:flex;align-items:center;gap:4px;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTBjMCA2LTggMTItOCAxMnMtOC02LTgtMTJhOCA4IDAgMCAxIDE2IDBaIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMCIgcj0iMyIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Location" />
-                                            Remote
-                                        </div>
-                                        <div style="display:flex;align-items:center;gap:4px;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwb2x5bGluZSBwb2ludHM9IjEyIDYgMTIgMTIgMTYgMTQiLz48L3N2Zz4=" width="14" height="14" style="width:14px;height:14px;" alt="Date" />
-                                            7/27/2024
-                                        </div>
-                                        <div style="display:flex;align-items:center;gap:4px;">
-                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC92YyIgd2lkdGgPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHg9IjIiIHk9IjciIHJ4PSIyIiByeT0iMiIvPjxwYXRoIGQ9Ik0xNiA3VjVhMyAzIDAgMCAwLTMtM0g3YTMgMyAwIDAgMCAwIDZ2MiIvPjwvc3ZnPg==" width="14" height="14" style="width:14px;height:14px;" alt="Type" />
-                                            Contract
-                                        </div>
-                                        
-                                    </div>
-                                    
-                                    <!-- Description -->
-                                    <p style="font-size: 14px; color: #475569; line-height: 1.6;">Craft intuitive and beautiful user experiences for our design tools. You&apos;ll be responsible for the entire design process from research to high-fidelit...</p>
-                                </div>
-                            </div>
-                            <!-- Right side (Buttons) -->
-                            <div style="display: flex; flex-direction: column; gap: 8px; min-width: 120px;">
-                                <a href="https://example.com/apply" target="_blank" style="display: block; text-align: center; background-color: #0f172a; color: #ffffff; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500;">Apply Now</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                ]]>
-            </content:encoded>
-            <pubDate>Sat, 27 Jul 2024 10:00:00 GMT</pubDate>
-            <!-- Make GUID a plain string so clients don't treat it as a link -->
-            <guid isPermaLink="false">s2j-job-68c3c8c64f23ee33c7d1d5b0</guid>
-        </item>
+            <link>${appBaseUrl}</link>
+        </image>${rssItemsXml}
     </channel>
-</rss>
+</rss>`;
+
+        return new Response(rssFeed, {
+            status: 200,
+            headers: {
+                'Content-Type': 'application/rss+xml; charset=utf-8',
+                'Cache-Control': 'public, max-age=600',
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET',
+                'Access-Control-Allow-Headers': 'Content-Type'
+            }
+        });
+
+    } catch (error) {
+        console.error('RSS Feed Generation Error:', error);
+        const errorFeed = `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Error</title><description>${escapeXml(error.message)}</description></channel></rss>`;
+        return new Response(errorFeed, { 
+            status: 500, 
+            headers: { 
+                'Content-Type': 'application/rss+xml; charset=utf-8',
+                'Cache-Control': 'no-cache'
+            } 
+        });
+    }
+});
