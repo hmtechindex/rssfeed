@@ -1,1 +1,53 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Startup Reads by Startups To Join</title><link>https://startupstojoin.com/StartupReads</link>
+        <description>Deep insights and stories from the startup ecosystem, curated by the Startups To Join editorial team.</description>
+        <language>en-us</language><lastBuildDate>Thu, 25 Sep 2025 00:26:34 GMT</lastBuildDate><ttl>600</ttl>
+        <atom:link href="https://startupstojoin.com/startupreads" rel="self" type="application/rss+xml"/>
+        <image><url>https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68ba5accec4de4195d99f56c/1e2a1108c_startups-to-join-high-resolution-logo-transparent.png</url><title>Startups To Join</title><link>https://startupstojoin.com</link></image>
+        <item>
+                <title>Figma as the Design Operating System: A Strategic Deep Dive</title>
+                <link>https://startupstojoin.com/StartupReadsPostDetail?id=post_44a757c2-47e3-45a9-b397-c78354e9bf28</link>
+                <description>How Figma’s browser-native, multiplayer canvas became product teams’ operating layer</description>
+                <content:encoded><![CDATA[
+                <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <tr><td align="center" style="padding:16px 12px;">
+                        <table role="presentation" width="500" border="0" cellspacing="0" cellpadding="0" style="width:500px;max-width:500px;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+                            <tr><td><a href="https://startupstojoin.com/StartupReadsPostDetail?id=post_44a757c2-47e3-45a9-b397-c78354e9bf28" target="_blank"><img src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3db6d6b1-32d2-44bf-bcd1-ca6e492f609b/3225dab2b34419e6bc17bf52633ed13b4e86cd6d-3262x1836.jpg?t=1757915422" alt="Figma as the Design Operating System: A Strategic Deep Dive" width="500" style="display:block;width:100%;max-width:500px;height:auto;border-top-left-radius:12px;border-top-right-radius:12px;"></a></td></tr>
+                            <tr><td style="padding:24px;">
+                                <h2 style="font-size:22px!important;font-weight:700!important;color:#1e293b!important;line-height:1.3!important;margin:0 0 12px 0;"><a href="https://startupstojoin.com/StartupReadsPostDetail?id=post_44a757c2-47e3-45a9-b397-c78354e9bf28" target="_blank" style="text-decoration:none;color:#1e293b;">Figma as the Design Operating System: A Strategic Deep Dive</a></h2>
+                                <p style="font-size:16px!important;color:#475569!important;margin:0 0 16px 0!important;line-height:1.6!important;">How Figma’s browser-native, multiplayer canvas became product teams’ operating layer</p>
+                                <div style="font-size:14px;color:#64748b;margin:0 0 24px 0!important;">Startups To Join • September 15, 2025</div>
+                                <a href="https://startupstojoin.com/StartupReadsPostDetail?id=post_44a757c2-47e3-45a9-b397-c78354e9bf28" target="_blank" style="display:inline-block;text-align:center;background-color:#0f172a;color:#ffffff;padding:12px 24px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;">Read More</a>
+                            </td></tr>
+                        </table>
+                    </td></tr>
+                </table>
+            ]]></content:encoded>
+                <pubDate>Mon, 15 Sep 2025 06:12:31 GMT</pubDate>
+                <guid isPermaLink="false">s2j-post-post_44a757c2-47e3-45a9-b397-c78354e9bf28</guid>
+            </item><item>
+                <title>Stripe&apos;s Payment Infrastructure Revolution: A Strategic Deep Dive</title>
+                <link>https://startupstojoin.com/StartupReadsPostDetail?id=post_f3057f35-a316-4a70-a49e-5d1ab6e00a59</link>
+                <description>The Stripe Model for Infrastructure-Led Value Creation in Financial Technology</description>
+                <content:encoded><![CDATA[
+                <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="mso-table-lspace:0;mso-table-rspace:0;">
+                    <tr><td align="center" style="padding:16px 12px;">
+                        <table role="presentation" width="500" border="0" cellspacing="0" cellpadding="0" style="width:500px;max-width:500px;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+                            <tr><td><a href="https://startupstojoin.com/StartupReadsPostDetail?id=post_f3057f35-a316-4a70-a49e-5d1ab6e00a59" target="_blank"><img src="https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/29520825-a871-4318-ae46-dd7fdb4e0ddd/Stripe_Headquarters.jpg?t=1757557659" alt="Stripe&apos;s Payment Infrastructure Revolution: A Strategic Deep Dive" width="500" style="display:block;width:100%;max-width:500px;height:auto;border-top-left-radius:12px;border-top-right-radius:12px;"></a></td></tr>
+                            <tr><td style="padding:24px;">
+                                <h2 style="font-size:22px!important;font-weight:700!important;color:#1e293b!important;line-height:1.3!important;margin:0 0 12px 0;"><a href="https://startupstojoin.com/StartupReadsPostDetail?id=post_f3057f35-a316-4a70-a49e-5d1ab6e00a59" target="_blank" style="text-decoration:none;color:#1e293b;">Stripe&apos;s Payment Infrastructure Revolution: A Strategic Deep Dive</a></h2>
+                                <p style="font-size:16px!important;color:#475569!important;margin:0 0 16px 0!important;line-height:1.6!important;">The Stripe Model for Infrastructure-Led Value Creation in Financial Technology</p>
+                                <div style="font-size:14px;color:#64748b;margin:0 0 24px 0!important;">Startups To Join • September 7, 2025</div>
+                                <a href="https://startupstojoin.com/StartupReadsPostDetail?id=post_f3057f35-a316-4a70-a49e-5d1ab6e00a59" target="_blank" style="display:inline-block;text-align:center;background-color:#0f172a;color:#ffffff;padding:12px 24px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;">Read More</a>
+                            </td></tr>
+                        </table>
+                    </td></tr>
+                </table>
+            ]]></content:encoded>
+                <pubDate>Sun, 07 Sep 2025 22:40:48 GMT</pubDate>
+                <guid isPermaLink="false">s2j-post-post_f3057f35-a316-4a70-a49e-5d1ab6e00a59</guid>
+            </item>
+    </channel>
+</rss>
